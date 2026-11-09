@@ -1,3 +1,13 @@
+# Reflection
+# 1. I would use .get() when a dictionary key might be missing to prevent crashes. 
+# I would use bracket notation when a missing key is a genuine error which should trigger a KeyError. 
+# For my rule of thumb, I would likely use bracket notation to catch any bugs. 
+# I would use .get() when trying to use an easier version that makes code simpler. 
+
+# 2. Exercise 8 reminds me of a pivot table in Excel. Python is much more efficient because it is stored in memory.
+# Excel has row limits which can easily become a setback when dealing with large datasets.
+
+
 print("--- Exercise 1 ---") 
 customer = { 
     "name": "Alice", 
